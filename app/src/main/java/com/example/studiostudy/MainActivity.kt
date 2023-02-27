@@ -47,7 +47,9 @@ class MainActivity : AppCompatActivity() {
             rightbutton.text = rightNum.toString()
         }
 
+
         assignRandom()
+
         leftbutton.setOnClickListener {
             checkAnswer(true)
             assignRandom()
@@ -59,8 +61,4 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
-
-
-
 }
