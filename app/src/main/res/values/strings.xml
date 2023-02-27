@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Studio study</string>
+    <string name="pick_the_greater_number">Pick the Greater number</string>
+    <string name="_5">5</string>
+    <string name="_3">3</string>
+    <string name="number_guessing_game">Number Guessing Game</string>
+</resources>
