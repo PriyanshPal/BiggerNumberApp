@@ -33,7 +33,7 @@ Tough time deciding what colors to choose :)
 
 ## License
 
-    Copyright [yyyy] [Priyansh Pal]
+    Copyright [2022] [Priyansh Pal]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
