@@ -27,11 +27,11 @@ class MainActivity : AppCompatActivity() {
             val rightNum = rightbutton.text.toString().toInt()
             val isAnswerCorrect: Boolean = if (isLeftButtonSelected) leftNum > rightNum else rightNum > leftNum
             if(isAnswerCorrect) {
-                layout.setBackgroundColor(Color.GREEN)
+                layout.setBackgroundColor(Color.CYAN)
                 Toast.makeText(this,"Correct!!", Toast.LENGTH_SHORT).show()
             }
             else{
-                layout.setBackgroundColor(Color.RED)
+                layout.setBackgroundColor(Color.YELLOW)
                 Toast.makeText(this,"Incorrect", Toast.LENGTH_SHORT).show()
             }
         }
