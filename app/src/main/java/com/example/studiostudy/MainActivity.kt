@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"Correct!!", Toast.LENGTH_SHORT).show()
             }
             else{
-                layout.setBackgroundColor(Color.YELLOW)
+                layout.setBackgroundColor(Color.RED)
                 Toast.makeText(this,"Incorrect", Toast.LENGTH_SHORT).show()
             }
         }
